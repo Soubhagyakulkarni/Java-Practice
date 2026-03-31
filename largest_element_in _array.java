@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class largest_element_in_array {
-   public static int grtlargest(int numbers[]) {
+   public static int getlargest(int numbers[]) {
       int largest = Integer.MIN_VALUE;
       for (int i = 0; i < numbers.length; i++) {
          if (largest < numbers[i]) {
